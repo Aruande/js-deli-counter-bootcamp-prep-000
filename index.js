@@ -8,7 +8,7 @@ function nowServing(katzDeliLine) {
   } else {
     var name= katzDeliLine[0];
 
-    return "Currently serving" + katzDeliLine.shift() + ".";
+    return "Currently serving " + katzDeliLine.shift() + ".";
   }
 }
 function currentLine(katzDeliLine) {
